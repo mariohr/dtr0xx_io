@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.sqlite
+*.suo
+*.user
+
+# ESPHome build artifacts
+.esphome/
+*.bin
+*.elf
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Secrets (do NOT commit real credentials)
+secrets.yaml
+
+# OS
+.DS_Store
+Thumbs.db
